@@ -1,1 +1,338 @@
-undefined
+{
+    "members": [
+        {
+            "title": "the-carmel-pet-sitter",
+            "template": "post",
+            "type": "post",
+            "name": "The Carmel Pet Sitter",
+            "owner": "Leanne Bertino",
+            "phone": "317-867-6363 (or text)",
+            "email": "carmelpetsitter@gmail.com",
+            "zipcodes": [
+                46032,
+                46033,
+                46074
+            ],
+            "description": "The Carmel Pet Sitter has been serving Westfield and Carmel since 2007. With 15 years experience in animal rescue and an accomplished dog trainer/cat whisperer your pet will be in the safest of hands during your travel or workday. The Carmel Pet Sitter is certified in pet first aid and is the only company in the area with veterinary back-up. Whether a vacation, business travel or daily dog walks your satisfaction is guaranteed. Please call, text or visit my website now for more information or a reservation.",
+            "servicearea": [
+                "Westfield - entire city",
+                "Carmel",
+                "Hazel Dell Parkway area north of 131st Street",
+                "East side of Michigan Rd and north of 131st St",
+                "The Arts and Design District north of 116th St.",
+                "The Village of West Clay"
+            ],
+            "website": "http://www.thecarmelpetsitter.com",
+            "url": "/members/2014/09/the-carmel-pet-sitter.html",
+            "fromMarkdown": true,
+            "excerpt": ""
+        },
+        {
+            "title": "scoop-and-sit",
+            "template": "post",
+            "type": "post",
+            "name": "Scoop and Sit",
+            "owner": "Jayne Stanfill",
+            "phone": "317-362-6842",
+            "email": "info@scoopandsit.com",
+            "zipcodes": [
+                46112,
+                46234,
+                46228,
+                46167,
+                46167,
+                46231,
+                46214,
+                46224,
+                46123,
+                46241
+            ],
+            "description": "Scoop and Sit provides pet sitting and pet waste removal service covering Brownsburg and the West Indy area.",
+            "servicearea": [
+                "Brownsburg",
+                "Plainfield",
+                "Pittsboro",
+                "near Speedway",
+                "Avon"
+            ],
+            "website": "http://www.scoopandsit.com",
+            "url": "/members/2014/09/scoop-and-sit.html",
+            "fromMarkdown": true,
+            "excerpt": ""
+        },
+        {
+            "title": "sarahs-critter-care",
+            "template": "post",
+            "type": "post",
+            "name": "Sarah’s Critter Care LLC",
+            "owner": "Sarah Fultz",
+            "phone": "317-271-9190",
+            "email": "lauralfultz@gmail.com",
+            "zipcodes": [
+                46214,
+                46234,
+                46254,
+                46112,
+                46123
+            ],
+            "description": null,
+            "servicearea": [
+                "Indianapolis - westside",
+                "Avon",
+                "Eagle Creek area"
+            ],
+            "website": null,
+            "url": "/members/2014/09/sarahs-critter-care.html",
+            "fromMarkdown": true,
+            "excerpt": ""
+        },
+        {
+            "title": "pawash-pet-sitting",
+            "template": "post",
+            "type": "post",
+            "name": "Pawsh Pet Sitting",
+            "owner": "Amanda Gibson",
+            "phone": "317-250-4745",
+            "email": "amanda@pawshpetsitting.com",
+            "zipcodes": [
+                46074,
+                46032,
+                46033,
+                46060,
+                46062
+            ],
+            "description": "Pawsh Pet Sitting is a fully insured, confidential company, dedicated to providing all your pets (dogs, cats, small animals, birds, and fish) with the best care possible! I am committed to giving your pets the love and attention they deserve while you’re away. I offer a full range of stress-free pet sitting and nail trims in your home at competitive rates. I am trained in Pet CPR & Pet First Aid & Certified in Pet Grooming since 2003. Consultations are always free and I look forward to meeting you soon!",
+            "servicearea": [
+                "Westfield",
+                "Carmel",
+                "Noblesville"
+            ],
+            "website": "http://www.pawshpetsitting.com",
+            "url": "/members/2014/09/pawsh-pet-sitting.html",
+            "fromMarkdown": true,
+            "excerpt": ""
+        },
+        {
+            "title": "just-like-home-pet-care",
+            "template": "post",
+            "type": "post",
+            "name": "Just Like Home Pet Care",
+            "owner": "Sue Gilfoy",
+            "phone": "317-295-9903",
+            "email": null,
+            "zipcodes": null,
+            "description": "In business since 1992. Quality In-My-Home Pet Care (boarding). Specializing in loving care for older dogs and those with medical issues. Located near the IMA and Butler University.",
+            "servicearea": null,
+            "website": null,
+            "url": "/members/2014/09/just-like-home-pet-care.html",
+            "fromMarkdown": true,
+            "excerpt": "\n"
+        },
+        {
+            "title": "hot-diggity-dawg",
+            "template": "post",
+            "type": "post",
+            "name": "Hot Diggity Dawg!",
+            "owner": "Connie Dinnsen",
+            "phone": "317-908-6007",
+            "email": null,
+            "zipcodes": [
+                46220,
+                46240
+            ],
+            "description": null,
+            "servicearea": null,
+            "website": "http://www.walkyourdogindy.com",
+            "url": "/members/2014/09/hot-diggity-dawg.html",
+            "fromMarkdown": true,
+            "excerpt": ""
+        },
+        {
+            "title": "home-elder-life-pets",
+            "template": "post",
+            "type": "post",
+            "name": "Home Elder Life Pets LLC",
+            "owner": "Hillary Brown",
+            "phone": "317-418-9937",
+            "email": "help@indyhelpconcierge.com",
+            "zipcodes": [
+                46205,
+                46208,
+                46220,
+                46228,
+                46260,
+                46240,
+                46250,
+                46256,
+                46038,
+                46033,
+                46032
+            ],
+            "description": "I offer daily visits to your home to care for all of your pets while you are at work or on vacation. The visits are set up to meet you & your animals needs. Free consultations are required to meet you and your animals before the first day of services. I offer occasional overnight visits. References are available upon request. I look forward to meeting you & your animals!",
+            "servicearea": [
+                "Broad Ripple",
+                "Castleton",
+                "Carmel",
+                "Fishers",
+                "Nora",
+                "Willing to travel anywhere",
+                "but mileage rates may apply"
+            ],
+            "website": "http://www.indyhelpconcierge.com",
+            "url": "/members/2014/09/home-elder-life-pets.html",
+            "fromMarkdown": true,
+            "excerpt": ""
+        },
+        {
+            "title": "dog-walker-bill",
+            "template": "post",
+            "type": "post",
+            "name": "Dog Walker Bill",
+            "owner": "Bill Asher",
+            "phone": "317-826-1505 (home) or 317-435-2392 (cell)",
+            "email": "dogwalkerbill@hotmail.com",
+            "zipcodes": [
+                46236,
+                46037,
+                46064,
+                46256,
+                46038,
+                46037,
+                46040,
+                46055,
+                46236,
+                46235,
+                46229
+            ],
+            "description": "Affordable pet care in your home. Insured, bonded. Indy A-List Top 5 2013, 2012, 2011, 2010. Member, National Professional Pet Sitters Association.",
+            "servicearea": [
+                "Geist",
+                "McCordsville",
+                "Fishers",
+                "Fortville",
+                "Oaklandon",
+                "Cumberland"
+            ],
+            "website": "http://www.dogwalkerbillindy.com",
+            "url": "/members/2014/09/dog-walker-bill.html",
+            "fromMarkdown": true,
+            "excerpt": ""
+        },
+        {
+            "title": "dog-visits-by-mary",
+            "template": "post",
+            "type": "post",
+            "name": "Dog Visits by Mary",
+            "owner": "Bill Asher",
+            "phone": "317-259-7419",
+            "email": "dogvisitsbymary@comcast.net",
+            "zipcodes": [
+                46240,
+                46220,
+                46250
+            ],
+            "description": "Customized dog visits while you work. No extra fee for dog walks or multiple dogs. You decide how I spend my time. I am also experienced with blind dogs and retired racing greyhounds. Senior dogs are special to me! Canine first aid trained. Bonded, fully insured. Member of Pet Sitters International. If you choose me, you have the comfort of knowing that I am the service owner as well as the service provider.",
+            "servicearea": [
+                46240,
+                "46220 north of Kessler",
+                "46250 west of Allisonville",
+                "lot of Broad Ripple",
+                "Glendale & Meridian Hills area"
+            ],
+            "website": "http://www.dogvisitsbymary.com",
+            "url": "/members/2014/09/dog-visits-by-mary.html",
+            "fromMarkdown": true,
+            "excerpt": ""
+        },
+        {
+            "title": "cotton-and-co-pet-sitting",
+            "template": "post",
+            "type": "post",
+            "name": "Cotton and Co. Pet Sitting",
+            "owner": "Teresa Cotton",
+            "phone": "317-984-5737 (Office), 317-445-1617 (Cell)",
+            "email": "ipdtcotton@yahoo.com",
+            "zipcodes": [
+                46060,
+                46062,
+                46038,
+                46074,
+                46034,
+                46022,
+                46033,
+                46077,
+                46030,
+                46036
+            ],
+            "description": "Cotton & Co. Pet Sitting service offers the peace of mind to go on a long weekend, a much needed vacation or an emergency trip, knowing that you have left the care of your pet(s) to experienced pet care professionals.",
+            "servicearea": [
+                "Serving the Noblesville area",
+                "Parts of Carmel and Westfield"
+            ],
+            "website": "http://www.cottonco.net",
+            "url": "/members/2014/09/cotton-and-co-pet-sitting.html",
+            "fromMarkdown": true,
+            "excerpt": ""
+        },
+        {
+            "title": "comforts-of-home-pet-sitting",
+            "template": "post",
+            "type": "post",
+            "name": "Comforts of Home Pet Sitting LLC",
+            "owner": "Cathy Clark",
+            "phone": "317-260-1082",
+            "email": "c.clark353@gmail.com",
+            "zipcodes": [
+                46236,
+                46037,
+                46040,
+                46256,
+                46055,
+                46216,
+                46235
+            ],
+            "description": "Cathy & Mark Clark (Geist residents) — Providing quality pet care since 2009. We come to your home to provide your pets loving care at affordable prices. We offer morning, midday, and evening pet visits and dog walks. We are insured and bonded for your protection. We do NOT use independent contractors or employees. References are gladly provided. Please visit our website for more information. We look forward to meeting you and your pet kids!",
+            "servicearea": [
+                "Geist",
+                "E Indy",
+                "Castleton (46256 only)",
+                "Fishers (46037 only)",
+                "McCordsville",
+                "Oaklandon",
+                "Area West of Fortville"
+            ],
+            "website": "http://www.comfortsofhomepetsittingllc.com/",
+            "url": "/members/2014/09/comforts-of-home-pet-sitting.html",
+            "fromMarkdown": true,
+            "excerpt": ""
+        },
+        {
+            "title": "amys-critter-care",
+            "template": "post",
+            "type": "post",
+            "name": "Amy's Critter Care, LLC",
+            "owner": "Amy McDonald",
+            "phone": "317-441-8546",
+            "email": "http://www.amyscrittercare.com",
+            "zipcodes": [
+                46038,
+                46037,
+                46033,
+                46250,
+                46256
+            ],
+            "description": "I have been providing pet sitting services since 2005 and Amy's Critter Care, LLC has been servicing the area since 2007. I will always ensure that your furry family members receive the excellent care they need as well as all the love and attention they deserve. Services include mid-day dog walks, and pet care for vacations and business trips. Bonded and Insured. Mileage fees apply to services outside of a 5 mile radius of 116th and Allisonville Road in Fishers.",
+            "servicearea": [
+                "Portions of Fishers (46038",
+                "46037)",
+                "Portions of Carmel (46033)",
+                "Portions of Indianapolis (46250",
+                "46256)"
+            ],
+            "website": "http://www.amyscrittercare.com",
+            "url": "/members/2014/09/amys-critter-care.html",
+            "fromMarkdown": true,
+            "excerpt": ""
+        }
+    ]
+}
