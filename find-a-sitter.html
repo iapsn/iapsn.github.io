@@ -124,7 +124,6 @@
             </li>
         </ul>
 
-        <hr class="featurette-divider">
     </div>
 </div>
 <script type='text/javascript'>
@@ -164,10 +163,17 @@
                                 var zipStr = self.zipcodeFilter();
                                 var matchZips = member.zipcodes.filter(function (zip) {
 //                                    console.log("This zip: " + zip.toString() + ", to match: " + zipStr.toString());
-                                    if (zip.toString() == zipStr.toString()) {
+                                    var subStrIndex = zip.toString().indexOf(zipStr.toString());
+
+                                    if (subStrIndex == 0 && zip.toString().length >= zipStr.toString().length) {
 //                                        console.log("Match");
                                         return true;
                                     }
+
+//                                    if (zip.toString() == zipStr.toString()) {
+////                                        console.log("Match");
+//                                        return true;
+//                                    }
 //                                    console.log("Fail");
                                     return false;
                                 });
