@@ -148,7 +148,7 @@
             function MembersModel() {
                 var self = this;
                 self.members = ko.observableArray(members);
-                self.zipcodeFilter = ko.observable();
+                self.zipcodeFilter = ko.observable("");
 
                 self.members.sort(function(left, right) { return left.name == right.name ? 0 : (left.name < right.name ? -1 : 1) })
 
