@@ -14,12 +14,27 @@ $(function(){
             return typeof o == "number" || (typeof o == "object" && o.constructor === Number);
         }
 
+        function prepName(name) {
+            var newName = name.toLowerCase();
+            var regexThe = new RegExp("\\s*\\bthe\\b\\s*");
+            newName = newName.replace(regexThe, "");
+            var regexA = new RegExp("\\s*\\ba\\b\\s*");
+            newName = newName.replace(regexA, "");
+            return newName;
+        }
+
         function MembersModel() {
             var self = this;
             self.members = ko.observableArray(members);
             self.zipcodeFilter = ko.observable("");
 
-            self.members.sort(function(left, right) { return left.name == right.name ? 0 : (left.name < right.name ? -1 : 1) })
+            self.members.sort(function(left, right) {
+
+                var leftName = prepName(left.name);
+                var rightName = prepName(right.name);
+
+                return leftName == rightName ? 0 : (leftName < rightName ? -1 : 1)
+            })
 
             self.filteredMembers= ko.computed(function() {
                 if(!self.zipcodeFilter()) {
@@ -76,7 +91,7 @@ $(function(){
                     zipNum = 0;
                 }
 //                    console.log("Got zip of: " + zipNum.toString());
-                self.zipcodeFilter(zipNum);
+                self.zipcodeFilter(zipNum.toString());
             }
         }
 
