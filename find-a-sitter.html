@@ -154,7 +154,7 @@
 
                 self.filteredMembers= ko.computed(function() {
                     if(!self.zipcodeFilter()) {
-                        return self.members(); //initial load when no genre filter is specified
+                        return self.members(); //initial load when no zip filter is specified
                     } else {
 //                        console.log("Updating filtered!");
                         return ko.utils.arrayFilter(self.members(), function(member) {
@@ -197,7 +197,7 @@
                     var zipNum = 0;
                     if (isString(zipVal)) {
                         if (zipVal == "") {
-                            self.zipcodeFilter(null);
+                            //self.zipcodeFilter(null);
                             return;
                         }
                         zipNum = parseFloat(zipVal);
