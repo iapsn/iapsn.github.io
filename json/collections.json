@@ -1,33 +1,6 @@
 {
     "members": [
         {
-            "title": "the-carmel-pet-sitter",
-            "template": "post",
-            "type": "post",
-            "name": "The Carmel Pet Sitter",
-            "owner": "Leanne Bertino",
-            "phone": "317-867-6363 (or text)",
-            "email": "carmelpetsitter@gmail.com",
-            "zipcodes": [
-                46032,
-                46033,
-                46074
-            ],
-            "description": "The Carmel Pet Sitter has been serving Westfield and Carmel since 2007. With 15 years experience in animal rescue and an accomplished dog trainer/cat whisperer your pet will be in the safest of hands during your travel or workday. The Carmel Pet Sitter is certified in pet first aid and is the only company in the area with veterinary back-up. Whether a vacation, business travel or daily dog walks your satisfaction is guaranteed. Please call, text or visit my website now for more information or a reservation.",
-            "servicearea": [
-                "Westfield - entire city",
-                "Carmel",
-                "Hazel Dell Parkway area north of 131st Street",
-                "East side of Michigan Rd and north of 131st St",
-                "The Arts and Design District north of 116th St.",
-                "The Village of West Clay"
-            ],
-            "website": "http://www.thecarmelpetsitter.com",
-            "url": "/members/2014/10/the-carmel-pet-sitter.html",
-            "fromMarkdown": true,
-            "excerpt": ""
-        },
-        {
             "title": "scoop-and-sit",
             "template": "post",
             "type": "post",
@@ -56,59 +29,7 @@
                 "Avon"
             ],
             "website": "http://www.scoopandsit.com",
-            "url": "/members/2014/10/scoop-and-sit.html",
-            "fromMarkdown": true,
-            "excerpt": ""
-        },
-        {
-            "title": "sarahs-critter-care",
-            "template": "post",
-            "type": "post",
-            "name": "Sarah’s Critter Care LLC",
-            "owner": "Sarah Fultz",
-            "phone": "317-271-9190",
-            "email": "lauralfultz@gmail.com",
-            "zipcodes": [
-                46214,
-                46234,
-                46254,
-                46112,
-                46123
-            ],
-            "description": null,
-            "servicearea": [
-                "Indianapolis - westside",
-                "Avon",
-                "Eagle Creek area"
-            ],
-            "website": null,
-            "url": "/members/2014/10/sarahs-critter-care.html",
-            "fromMarkdown": true,
-            "excerpt": ""
-        },
-        {
-            "title": "pawash-pet-sitting",
-            "template": "post",
-            "type": "post",
-            "name": "Pawsh Pet Sitting",
-            "owner": "Amanda Gibson",
-            "phone": "317-250-4745",
-            "email": "amanda@pawshpetsitting.com",
-            "zipcodes": [
-                46074,
-                46032,
-                46033,
-                46060,
-                46062
-            ],
-            "description": "Pawsh Pet Sitting is a fully insured, confidential company, dedicated to providing all your pets (dogs, cats, small animals, birds, and fish) with the best care possible! I am committed to giving your pets the love and attention they deserve while you’re away. I offer a full range of stress-free pet sitting and nail trims in your home at competitive rates. I am trained in Pet CPR & Pet First Aid & Certified in Pet Grooming since 2003. Consultations are always free and I look forward to meeting you soon!",
-            "servicearea": [
-                "Westfield",
-                "Carmel",
-                "Noblesville"
-            ],
-            "website": "http://www.pawshpetsitting.com",
-            "url": "/members/2014/10/pawsh-pet-sitting.html",
+            "url": "/members/2015/01/scoop-and-sit.html",
             "fromMarkdown": true,
             "excerpt": ""
         },
@@ -124,7 +45,7 @@
             "description": "In business since 1992. Quality In-My-Home Pet Care (boarding). Specializing in loving care for older dogs and those with medical issues. Located near the IMA and Butler University.",
             "servicearea": null,
             "website": null,
-            "url": "/members/2014/10/just-like-home-pet-care.html",
+            "url": "/members/2015/01/just-like-home-pet-care.html",
             "fromMarkdown": true,
             "excerpt": "\n"
         },
@@ -143,7 +64,7 @@
             "description": null,
             "servicearea": null,
             "website": "http://www.walkyourdogindy.com",
-            "url": "/members/2014/10/hot-diggity-dawg.html",
+            "url": "/members/2015/01/hot-diggity-dawg.html",
             "fromMarkdown": true,
             "excerpt": ""
         },
@@ -179,42 +100,7 @@
                 "but mileage rates may apply"
             ],
             "website": "http://www.indyhelpconcierge.com",
-            "url": "/members/2014/10/home-elder-life-pets.html",
-            "fromMarkdown": true,
-            "excerpt": ""
-        },
-        {
-            "title": "dog-walker-bill",
-            "template": "post",
-            "type": "post",
-            "name": "Dog Walker Bill",
-            "owner": "Bill Asher",
-            "phone": "317-826-1505 (home) or 317-435-2392 (cell)",
-            "email": "dogwalkerbill@hotmail.com",
-            "zipcodes": [
-                46236,
-                46037,
-                46064,
-                46256,
-                46038,
-                46037,
-                46040,
-                46055,
-                46236,
-                46235,
-                46229
-            ],
-            "description": "Affordable pet care in your home. Insured, bonded. Indy A-List Top 5 2013, 2012, 2011, 2010. Member, National Professional Pet Sitters Association.",
-            "servicearea": [
-                "Geist",
-                "McCordsville",
-                "Fishers",
-                "Fortville",
-                "Oaklandon",
-                "Cumberland"
-            ],
-            "website": "http://www.dogwalkerbillindy.com",
-            "url": "/members/2014/10/dog-walker-bill.html",
+            "url": "/members/2015/01/home-elder-life-pets.html",
             "fromMarkdown": true,
             "excerpt": ""
         },
@@ -240,37 +126,7 @@
                 "Glendale & Meridian Hills area"
             ],
             "website": "http://www.dogvisitsbymary.com",
-            "url": "/members/2014/10/dog-visits-by-mary.html",
-            "fromMarkdown": true,
-            "excerpt": ""
-        },
-        {
-            "title": "cotton-and-co-pet-sitting",
-            "template": "post",
-            "type": "post",
-            "name": "Cotton and Co. Pet Sitting",
-            "owner": "Teresa Cotton",
-            "phone": "317-984-5737 (Office), 317-445-1617 (Cell)",
-            "email": "ipdtcotton@yahoo.com",
-            "zipcodes": [
-                46060,
-                46062,
-                46038,
-                46074,
-                46034,
-                46022,
-                46033,
-                46077,
-                46030,
-                46036
-            ],
-            "description": "Cotton & Co. Pet Sitting service offers the peace of mind to go on a long weekend, a much needed vacation or an emergency trip, knowing that you have left the care of your pet(s) to experienced pet care professionals.",
-            "servicearea": [
-                "Serving the Noblesville area",
-                "Parts of Carmel and Westfield"
-            ],
-            "website": "http://www.cottonco.net",
-            "url": "/members/2014/10/cotton-and-co-pet-sitting.html",
+            "url": "/members/2015/01/dog-visits-by-mary.html",
             "fromMarkdown": true,
             "excerpt": ""
         },
@@ -302,7 +158,7 @@
                 "Area West of Fortville"
             ],
             "website": "http://www.comfortsofhomepetsittingllc.com/",
-            "url": "/members/2014/10/comforts-of-home-pet-sitting.html",
+            "url": "/members/2015/01/comforts-of-home-pet-sitting.html",
             "fromMarkdown": true,
             "excerpt": ""
         },
@@ -330,7 +186,7 @@
                 "46256)"
             ],
             "website": "http://www.amyscrittercare.com",
-            "url": "/members/2014/10/amys-critter-care.html",
+            "url": "/members/2015/01/amys-critter-care.html",
             "fromMarkdown": true,
             "excerpt": ""
         }
