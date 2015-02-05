@@ -78,8 +78,6 @@
             
             <li class=""><a href="/resources.html">Resources</a></li>
             
-            <li class="active"><a href="/postings.html">Blog</a></li>
-            
         </ul>
     </div>
 
@@ -93,106 +91,102 @@
     <div class="container">
       
 
+  <div class="row">
+    <div class="col-md-12">
+      <link rel="bookmark" href="/members/2015/02/amys-critter-care.html" />
+      <h2 class="h2link">amys-critter-care</h2>
+      
 
-<div class="template_dummy"> </div>
+<div class="date">
+	Posted: <span>February 5th 2015.</span>
+Tags:
+	
+Categories:
+	
+</div>
 
-<!-- BEGIN: Underscore Template Definition. -->
-<script type="text/template" class="template">
-
-	<% var tagOrCategory = (rc.currentTag != null && rc.currentTag != undefined) ? rc.currentTag : ((rc.currentCategory != null && rc.currentCategory != undefined) ? rc.currentCategory : "Recent Posts"); %>
-
-	<h2><%-tagOrCategory%></h2>
-	<%
-		var matchingPosts = (rc.currentTag != null && rc.currentTag != undefined) ? _.filter(rc.posts, function(post){ return post.tags.indexOf(rc.currentTag) != -1; }) :
-																((rc.currentCategory != null && rc.currentCategory != undefined) ? _.filter(rc.posts, function(post){ return post.categories.indexOf(rc.currentCategory) != -1; }) : rc.posts) ;
-    %>
-    <% _.each( matchingPosts, function(post){ %>
-    	<h3 class="h2link"><a href="<%-post.url%>"><%-post.title%></a></h3>
-    	<div class="date">
-    	<% var dateString = moment(post.date).format('MMMM Do YYYY'); %>
-		Posted: <span><%- dateString %>.</span>
-		Tags:
-			<% _.each( post.tags, function( tag, index ){ %>
-				<span>
-					<a href="/summaries.html?tag=<%- tag %>"><%- tag %></a>
-					<% if ( index < (post.tags.length-1) ){ %>, <% } %>
-				</span>
-			<% }); %>
-		Categories:
-			<% _.each( post.categories, function( category, index ){ %>
-				<span>
-					<a href="/summaries.html?category=<%- category %>"><%- category %></a>
-					<% if ( index < (post.categories.length-1) ){ %>, <% } %>
-				</span>
-			<% }); %>
-		</div>
-		<p class="view">
-			<br/>
-			<%- post.excerpt %><a href="<%- post.url %>" class="more"> Read the post in full</a>
-		</p>
-    <% }); %>
+      <br>
+      <div class="blog_posting">
+        
 
 
+      </div>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="col-md-12">
+    <ul id="paginator"></ul>
+  </div>
+</div>
+
+
+<script type='text/javascript'>
+    $(function(){
+        //DOM loaded
+
+        $.getJSON( "/json/collections.json", function( data ) {
+          //console.log(data);
+
+          var posts = data.posts;
+
+          // find what page number we are by comparing our url to items
+          var url = $.url(); // parse the current page URL
+          var currentPage = url.param('pagenum');
+          if (currentPage == undefined) {
+            currentPage = 1; // figure out page num here!
+            var pathUrl = url.attr('path');
+            currentPage = _.findIndex(posts, { 'url': pathUrl }) + 1;  // needs some error handling!
+          }
+
+          var totalPages = posts.length;
+
+          var options = {
+            currentPage: currentPage, //currentPage,
+            totalPages: totalPages,
+            alignment: "left",
+            bootstrapMajorVersion: 3,
+            tooltipTitles: function (type, page, current) {
+                            var pageIndex = page-1;
+                            var currentPageIndex = currentPage - 1;
+                            switch (type) {
+                            case "first":
+                                return posts[0].title;
+                            case "prev":
+                                return ((currentPageIndex - 1) < 0) ? "" : posts[(currentPageIndex - 1)].title;
+                            case "next":
+                                return ((currentPageIndex + 1) > (posts.length-1)) ? "" : posts[(currentPageIndex + 1)].title;
+                            case "last":
+                                return posts[posts.length-1].title;
+                            case "page":
+                                return posts[pageIndex].title;
+                            }
+                        },
+            pageUrl: function(type, page, current) {
+                var pageIndex = page-1;
+                var currentPageIndex = currentPage - 1;
+                switch (type) {
+                case "first":
+                    return posts[0].url;
+                case "prev":
+                    return ((currentPageIndex - 1) < 0) ? "" : posts[(currentPageIndex - 1)].url;
+                case "next":
+                    return ((currentPageIndex + 1) > (posts.length-1)) ? "" : posts[(currentPageIndex + 1)].url
+                case "last":
+                    return posts[posts.length-1].url;
+                case "page":
+                    return posts[pageIndex].url;
+                }
+              }
+          }
+
+          $('#paginator').bootstrapPaginator(options);
+        });
+    });
 </script>
-<!-- END: Underscore Template Definition. -->
 
- <script type="text/javascript">
-  // var $ = require('jquery');
-	// var $ = require('lodash');
 
- $(function(){
-    //DOM loaded
 
- 	 $.getJSON( "/json/collections.json", function( data ) {
-
-	    // find what category we shoudl show...if not specified, show all, by category
-	    var url = $.url(); // parse the current page URL
-	    var currentCategory = url.param('category');
-			var currentTag = url.param('tag');
-
-			if (currentCategory != null && currentCategory != undefined) {
-				//currentCategory = currentCategory.toLowerCase();
-				console.log("Category: " + currentCategory);
-			}
-
-			if (currentTag != null && currentTag != undefined) {
-				//currentTag = currentTag.toLowerCase();
-				console.log("Tag: " + currentTag);
-			}
-
-	    var posts = data.posts;
-
-			var totalPages = posts.length;
-			//console.log("Total page count: " + totalPages);
-
-	    // When rending an underscore template, we want top-level
-	    // variables to be referenced as part of an object. For
-	    // technical reasons (scope-chain search), this speeds up
-	    // rendering; however, more importantly, this also allows our
-	    // templates to look / feel more like our server-side
-	    // templates that use the rc (Request Context / Colletion) in
-	    // order to render their markup.
-	    _.templateSettings.variable = "rc";
-
-			var passedData = {
-				posts: data.posts,
-				currentTag: currentTag,
-				currentCategory : currentCategory
-			}
-
-	    // Grab the HTML out of our template tag and pre-compile it.
-	    var template = _.template(
-	        $( "script.template" ).html()
-	    );
-
-	    // Render the underscore template and inject it after the H1
-	    // in our current DOM.
-	    $( "div.template_dummy" ).after(
-	        template( passedData )
-	    );
-	});
-});
-</script>
 
 
 

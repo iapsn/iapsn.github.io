@@ -1,39 +1,6 @@
 {
     "members": [
         {
-            "title": "scoop-and-sit",
-            "template": "post",
-            "type": "post",
-            "name": "Scoop and Sit",
-            "owner": "Jayne Stanfill",
-            "phone": "317-362-6842",
-            "email": "info@scoopandsit.com",
-            "zipcodes": [
-                46112,
-                46234,
-                46228,
-                46167,
-                46167,
-                46231,
-                46214,
-                46224,
-                46123,
-                46241
-            ],
-            "description": "Scoop and Sit provides pet sitting and pet waste removal service covering Brownsburg and the West Indy area.",
-            "servicearea": [
-                "Brownsburg",
-                "Plainfield",
-                "Pittsboro",
-                "near Speedway",
-                "Avon"
-            ],
-            "website": "http://www.scoopandsit.com",
-            "url": "/members/2015/01/scoop-and-sit.html",
-            "fromMarkdown": true,
-            "excerpt": ""
-        },
-        {
             "title": "just-like-home-pet-care",
             "template": "post",
             "type": "post",
@@ -42,12 +9,12 @@
             "phone": "317-295-9903",
             "email": null,
             "zipcodes": null,
-            "description": "In business since 1992. Quality In-My-Home Pet Care (boarding). Specializing in loving care for older dogs and those with medical issues. Located near the IMA and Butler University.",
-            "servicearea": null,
+            "description": "Boarding, overnights & pet visits.  Sue focuses her business on in-home care, either at Sue’s large home or the home of the client. Sue has owned, loved and treasured both dogs and cats for most of her life.  Her business started a little over 20 years ago when she saw an unmet need for quality in home pet care, especially for people wanting to travel often but not wanting to leave their beloved pets in a kennel.  Whether your dog comes to stay at Sue’s house or Sue stays at yours, you can relax knowing your pet is getting lots of attention and super care while you are away.  As the name implies, we want to be as good as Just Like Home. . .or better.  We are also happy to email daily or weekly reports and pictures of your pet while you are away.  References are available and offered at time of an interview.  I invite you to call for more information.",
+            "servicearea": "North of 38th St., south of 86th St., west of Keystone and east of Lafayette Rd. (some downtown exceptions apply). Located near the IMA and Butler University.",
             "website": null,
-            "url": "/members/2015/01/just-like-home-pet-care.html",
+            "url": "/members/2015/02/just-like-home-pet-care.html",
             "fromMarkdown": true,
-            "excerpt": "\n"
+            "excerpt": ""
         },
         {
             "title": "hot-diggity-dawg",
@@ -58,13 +25,15 @@
             "phone": "317-908-6007",
             "email": null,
             "zipcodes": [
+                46205,
                 46220,
-                46240
+                46240,
+                46250
             ],
-            "description": null,
+            "description": "Hot Diggity Dawg! will take care of your dog walking and pet sitting needs.  I am the sole proprietor of my business and am fully insured.  I am a Certified Professional Pet Sitter through Pet Sitters International.  I offer various services that include dog walking and pet sitting.  Short-term or long-term pet care needs are welcome.",
             "servicearea": null,
             "website": "http://www.walkyourdogindy.com",
-            "url": "/members/2015/01/hot-diggity-dawg.html",
+            "url": "/members/2015/02/hot-diggity-dawg.html",
             "fromMarkdown": true,
             "excerpt": ""
         },
@@ -100,7 +69,7 @@
                 "but mileage rates may apply"
             ],
             "website": "http://www.indyhelpconcierge.com",
-            "url": "/members/2015/01/home-elder-life-pets.html",
+            "url": "/members/2015/02/home-elder-life-pets.html",
             "fromMarkdown": true,
             "excerpt": ""
         },
@@ -126,7 +95,7 @@
                 "Glendale & Meridian Hills area"
             ],
             "website": "http://www.dogvisitsbymary.com",
-            "url": "/members/2015/01/dog-visits-by-mary.html",
+            "url": "/members/2015/02/dog-visits-by-mary.html",
             "fromMarkdown": true,
             "excerpt": ""
         },
@@ -158,7 +127,7 @@
                 "Area West of Fortville"
             ],
             "website": "http://www.comfortsofhomepetsittingllc.com/",
-            "url": "/members/2015/01/comforts-of-home-pet-sitting.html",
+            "url": "/members/2015/02/comforts-of-home-pet-sitting.html",
             "fromMarkdown": true,
             "excerpt": ""
         },
@@ -186,7 +155,7 @@
                 "46256)"
             ],
             "website": "http://www.amyscrittercare.com",
-            "url": "/members/2015/01/amys-critter-care.html",
+            "url": "/members/2015/02/amys-critter-care.html",
             "fromMarkdown": true,
             "excerpt": ""
         }
